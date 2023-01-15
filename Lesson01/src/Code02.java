@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Code02 {
 	
-	static void main(String[] args) {
+	public static void main(String[] args) {
 		
 		int number = 123;
 		
@@ -17,6 +17,8 @@ public class Code02 {
 		}else {
 			System.out.println("Numbers do not match!!");
 		}
+		
+		key.close();
 		
 	}
 }
