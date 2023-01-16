@@ -28,7 +28,7 @@ public class Code05 {
 //		System.out.println(grades[4]);
 		
 		// 반복문을 이용한 출력
-		for(int i = 0; i < 5; i++) {
+		for(int i = 0; i < grades.length; i++) {
 			System.out.println("Grade" + (i+1) + ": " + grades[i]);
 		}
 		
